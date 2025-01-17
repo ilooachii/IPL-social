@@ -4,7 +4,13 @@ function passwordChecker(password) {
       return false;
     }
   
-    // (Les autres règles seront ajoutées plus tard)
+    // 2) Au moins un caractère spécial
+    const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;
+    if (!specialCharRegex.test(password)) {
+      return false;
+    }
+  
+    // On laisse les autres règles pour les commits suivants
     return true;
   }
   
