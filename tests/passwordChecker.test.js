@@ -18,4 +18,16 @@ describe('passwordChecker - Step 2: Special character', () => {
       expect(passwordChecker('Abcdef12!')).toBe(true);
     });
   });
+
+  describe('passwordChecker - Step 3: Digit presence', () => {
+    test('Should fail if there is no digit', () => {
+      // "Abcdef!!" pas de chiffre
+      expect(passwordChecker('Abcdef!!')).toBe(false);
+    });
+  
+    test('Should pass if there is at least one digit', () => {
+      // "Abcd!123" a 123
+      expect(passwordChecker('Abcd!123')).toBe(true);
+    });
+  });
   

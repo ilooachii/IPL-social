@@ -10,7 +10,13 @@ function passwordChecker(password) {
       return false;
     }
   
-    // On laisse les autres règles pour les commits suivants
+    // 3) Au moins un chiffre
+    const digitRegex = /\d/;
+    if (!digitRegex.test(password)) {
+      return false;
+    }
+  
+    // Étape 4 viendra après
     return true;
   }
   
