@@ -1,12 +1,12 @@
 # IPL social
 
 ## 1. Informations personnelles
-- **Nom** : [Ton Nom]
-- **Prénom** : [Ton Prénom]
-- **Email Vinci** : [ton.email@vinci.be]
+- **Nom** : Dahaj
+- **Prénom** : Ilyas
+- **Email Vinci** : ilyas.dahajbelghazou@student.vinci.be
 
 ## 2. URL du Projet
-[Lien GitHub du projet](https://github.com/VotrePseudoGitHub/IPL-social)
+[Lien GitHub du projet](https://github.com/ilooachii/IPL-social.git)
   
 ## 3. Explication du code
 Dans ce projet, nous avons mis en place une **pipeline d’intégration continue (CI)** à l’aide de **GitHub Actions**.  
