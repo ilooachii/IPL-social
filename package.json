@@ -1,0 +1,23 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "- **Nom** : [Ton Nom]\r - **Prénom** : [Ton Prénom]\r - **Email Vinci** : [ton.email@vinci.be]",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilooachii/IPL-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilooachii/IPL-social/issues"
+  },
+  "homepage": "https://github.com/ilooachii/IPL-social#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
