@@ -16,7 +16,11 @@ function passwordChecker(password) {
       return false;
     }
   
-    // Étape 4 viendra après
+    // 4) Ne pas contenir "IPL" en majuscules ou minuscules
+    if (password.toLowerCase().includes('ipl')) {
+      return false;
+    }
+  
     return true;
   }
   

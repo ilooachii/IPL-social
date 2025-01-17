@@ -30,4 +30,17 @@ describe('passwordChecker - Step 2: Special character', () => {
       expect(passwordChecker('Abcd!123')).toBe(true);
     });
   });
+
+  describe('passwordChecker - Step 4: No "IPL" (case-insensitive)', () => {
+    test('Should fail if the password contains "IPL" in any case', () => {
+      expect(passwordChecker('abIPL123!')).toBe(false);
+      expect(passwordChecker('abipl123!')).toBe(false);
+      expect(passwordChecker('abIpL123!')).toBe(false);
+    });
+  
+    test('Should pass if it does not contain "IPL"', () => {
+      // "Abcd!123" ne contient pas "ipl"
+      expect(passwordChecker('Abcd!123')).toBe(true);
+    });
+  });
   
